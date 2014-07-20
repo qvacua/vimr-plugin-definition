@@ -11,7 +11,7 @@
 		4B6F2547197BA64E00AB1DD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F2545197BA64E00AB1DD8 /* InfoPlist.strings */; };
 		4B6F2552197BA64E00AB1DD8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6F2551197BA64E00AB1DD8 /* XCTest.framework */; };
 		4B6F2553197BA64E00AB1DD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6F253C197BA64E00AB1DD8 /* Cocoa.framework */; };
-		4B6F2556197BA64E00AB1DD8 /* VimR Plugin Definition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6F2539197BA64E00AB1DD8 /* VimR Plugin Definition.framework */; };
+		4B6F2556197BA64E00AB1DD8 /* VimRPluginDefinition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6F2539197BA64E00AB1DD8 /* VimRPluginDefinition.framework */; };
 		4B6F255C197BA64E00AB1DD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F255A197BA64E00AB1DD8 /* InfoPlist.strings */; };
 		4B6F255E197BA64E00AB1DD8 /* VimR_Plugin_DefinitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F255D197BA64E00AB1DD8 /* VimR_Plugin_DefinitionTests.m */; };
 		4B6F256A197BA7E100AB1DD8 /* VRPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6F2567197BA7E100AB1DD8 /* VRPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,14 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B6F2539197BA64E00AB1DD8 /* VimR Plugin Definition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "VimR Plugin Definition.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6F2539197BA64E00AB1DD8 /* VimRPluginDefinition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VimRPluginDefinition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6F253C197BA64E00AB1DD8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		4B6F2544197BA64E00AB1DD8 /* VimR Plugin Definition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VimR Plugin Definition-Info.plist"; sourceTree = "<group>"; };
+		4B6F2544197BA64E00AB1DD8 /* VimRPluginDefinition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VimRPluginDefinition-Info.plist"; sourceTree = "<group>"; };
 		4B6F2546197BA64E00AB1DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4B6F2548197BA64E00AB1DD8 /* VimR Plugin Definition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VimR Plugin Definition-Prefix.pch"; sourceTree = "<group>"; };
-		4B6F2550197BA64E00AB1DD8 /* VimR Plugin DefinitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VimR Plugin DefinitionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6F2548197BA64E00AB1DD8 /* VimRPluginDefinition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VimRPluginDefinition-Prefix.pch"; sourceTree = "<group>"; };
+		4B6F2550197BA64E00AB1DD8 /* VimRPluginDefinitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimRPluginDefinitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6F2551197BA64E00AB1DD8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4B6F2559197BA64E00AB1DD8 /* VimR Plugin DefinitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VimR Plugin DefinitionTests-Info.plist"; sourceTree = "<group>"; };
+		4B6F2559197BA64E00AB1DD8 /* VimRPluginDefinitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VimRPluginDefinitionTests-Info.plist"; sourceTree = "<group>"; };
 		4B6F255B197BA64E00AB1DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B6F255D197BA64E00AB1DD8 /* VimR_Plugin_DefinitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VimR_Plugin_DefinitionTests.m; sourceTree = "<group>"; };
 		4B6F2567197BA7E100AB1DD8 /* VRPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRPlugin.h; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6F2556197BA64E00AB1DD8 /* VimR Plugin Definition.framework in Frameworks */,
+				4B6F2556197BA64E00AB1DD8 /* VimRPluginDefinition.framework in Frameworks */,
 				4B6F2553197BA64E00AB1DD8 /* Cocoa.framework in Frameworks */,
 				4B6F2552197BA64E00AB1DD8 /* XCTest.framework in Frameworks */,
 			);
@@ -81,8 +81,8 @@
 		4B6F253A197BA64E00AB1DD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B6F2539197BA64E00AB1DD8 /* VimR Plugin Definition.framework */,
-				4B6F2550197BA64E00AB1DD8 /* VimR Plugin DefinitionTests.xctest */,
+				4B6F2539197BA64E00AB1DD8 /* VimRPluginDefinition.framework */,
+				4B6F2550197BA64E00AB1DD8 /* VimRPluginDefinitionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,9 +110,9 @@
 		4B6F2543197BA64E00AB1DD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4B6F2544197BA64E00AB1DD8 /* VimR Plugin Definition-Info.plist */,
+				4B6F2544197BA64E00AB1DD8 /* VimRPluginDefinition-Info.plist */,
 				4B6F2545197BA64E00AB1DD8 /* InfoPlist.strings */,
-				4B6F2548197BA64E00AB1DD8 /* VimR Plugin Definition-Prefix.pch */,
+				4B6F2548197BA64E00AB1DD8 /* VimRPluginDefinition-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,7 +129,7 @@
 		4B6F2558197BA64E00AB1DD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4B6F2559197BA64E00AB1DD8 /* VimR Plugin DefinitionTests-Info.plist */,
+				4B6F2559197BA64E00AB1DD8 /* VimRPluginDefinitionTests-Info.plist */,
 				4B6F255A197BA64E00AB1DD8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -150,9 +150,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4B6F2538197BA64E00AB1DD8 /* VimR Plugin Definition */ = {
+		4B6F2538197BA64E00AB1DD8 /* VimRPluginDefinition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B6F2561197BA64E00AB1DD8 /* Build configuration list for PBXNativeTarget "VimR Plugin Definition" */;
+			buildConfigurationList = 4B6F2561197BA64E00AB1DD8 /* Build configuration list for PBXNativeTarget "VimRPluginDefinition" */;
 			buildPhases = (
 				4B6F2534197BA64E00AB1DD8 /* Sources */,
 				4B6F2535197BA64E00AB1DD8 /* Frameworks */,
@@ -163,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = "VimR Plugin Definition";
+			name = VimRPluginDefinition;
 			productName = "VimR Plugin Definition";
-			productReference = 4B6F2539197BA64E00AB1DD8 /* VimR Plugin Definition.framework */;
+			productReference = 4B6F2539197BA64E00AB1DD8 /* VimRPluginDefinition.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4B6F254F197BA64E00AB1DD8 /* VimR Plugin DefinitionTests */ = {
+		4B6F254F197BA64E00AB1DD8 /* VimRPluginDefinitionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B6F2564197BA64E00AB1DD8 /* Build configuration list for PBXNativeTarget "VimR Plugin DefinitionTests" */;
+			buildConfigurationList = 4B6F2564197BA64E00AB1DD8 /* Build configuration list for PBXNativeTarget "VimRPluginDefinitionTests" */;
 			buildPhases = (
 				4B6F254C197BA64E00AB1DD8 /* Sources */,
 				4B6F254D197BA64E00AB1DD8 /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				4B6F2555197BA64E00AB1DD8 /* PBXTargetDependency */,
 			);
-			name = "VimR Plugin DefinitionTests";
+			name = VimRPluginDefinitionTests;
 			productName = "VimR Plugin DefinitionTests";
-			productReference = 4B6F2550197BA64E00AB1DD8 /* VimR Plugin DefinitionTests.xctest */;
+			productReference = 4B6F2550197BA64E00AB1DD8 /* VimRPluginDefinitionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B6F2533197BA64E00AB1DD8 /* Build configuration list for PBXProject "VimR Plugin Definition" */;
+			buildConfigurationList = 4B6F2533197BA64E00AB1DD8 /* Build configuration list for PBXProject "VimRPluginDefinition" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,8 +212,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B6F2538197BA64E00AB1DD8 /* VimR Plugin Definition */,
-				4B6F254F197BA64E00AB1DD8 /* VimR Plugin DefinitionTests */,
+				4B6F2538197BA64E00AB1DD8 /* VimRPluginDefinition */,
+				4B6F254F197BA64E00AB1DD8 /* VimRPluginDefinitionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 /* Begin PBXTargetDependency section */
 		4B6F2555197BA64E00AB1DD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B6F2538197BA64E00AB1DD8 /* VimR Plugin Definition */;
+			target = 4B6F2538197BA64E00AB1DD8 /* VimRPluginDefinition */;
 			targetProxy = 4B6F2554197BA64E00AB1DD8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -363,9 +363,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VimR Plugin Definition/VimR Plugin Definition-Prefix.pch";
-				INFOPLIST_FILE = "VimR Plugin Definition/VimR Plugin Definition-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VimR Plugin Definition/VimRPluginDefinition-Prefix.pch";
+				INFOPLIST_FILE = "VimR Plugin Definition/VimRPluginDefinition-Info.plist";
+				PRODUCT_NAME = VimRPluginDefinition;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -378,9 +378,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VimR Plugin Definition/VimR Plugin Definition-Prefix.pch";
-				INFOPLIST_FILE = "VimR Plugin Definition/VimR Plugin Definition-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VimR Plugin Definition/VimRPluginDefinition-Prefix.pch";
+				INFOPLIST_FILE = "VimR Plugin Definition/VimRPluginDefinition-Info.plist";
+				PRODUCT_NAME = VimRPluginDefinition;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -400,8 +400,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "VimR Plugin DefinitionTests/VimR Plugin DefinitionTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VimR Plugin DefinitionTests/VimRPluginDefinitionTests-Info.plist";
+				PRODUCT_NAME = VimRPluginDefinitionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -418,8 +418,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VimR Plugin Definition/VimR Plugin Definition-Prefix.pch";
-				INFOPLIST_FILE = "VimR Plugin DefinitionTests/VimR Plugin DefinitionTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VimR Plugin DefinitionTests/VimRPluginDefinitionTests-Info.plist";
+				PRODUCT_NAME = VimRPluginDefinitionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -428,7 +428,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B6F2533197BA64E00AB1DD8 /* Build configuration list for PBXProject "VimR Plugin Definition" */ = {
+		4B6F2533197BA64E00AB1DD8 /* Build configuration list for PBXProject "VimRPluginDefinition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B6F255F197BA64E00AB1DD8 /* Debug */,
@@ -437,7 +437,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B6F2561197BA64E00AB1DD8 /* Build configuration list for PBXNativeTarget "VimR Plugin Definition" */ = {
+		4B6F2561197BA64E00AB1DD8 /* Build configuration list for PBXNativeTarget "VimRPluginDefinition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B6F2562197BA64E00AB1DD8 /* Debug */,
@@ -446,7 +446,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B6F2564197BA64E00AB1DD8 /* Build configuration list for PBXNativeTarget "VimR Plugin DefinitionTests" */ = {
+		4B6F2564197BA64E00AB1DD8 /* Build configuration list for PBXNativeTarget "VimRPluginDefinitionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B6F2565197BA64E00AB1DD8 /* Debug */,
