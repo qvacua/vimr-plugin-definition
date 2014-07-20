@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		4B6F253D197BA64E00AB1DD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6F253C197BA64E00AB1DD8 /* Cocoa.framework */; };
 		4B6F2547197BA64E00AB1DD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F2545197BA64E00AB1DD8 /* InfoPlist.strings */; };
-		4B6F254B197BA64E00AB1DD8 /* VimR_Plugin_Definition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F254A197BA64E00AB1DD8 /* VimR_Plugin_Definition.m */; };
 		4B6F2552197BA64E00AB1DD8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6F2551197BA64E00AB1DD8 /* XCTest.framework */; };
 		4B6F2553197BA64E00AB1DD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6F253C197BA64E00AB1DD8 /* Cocoa.framework */; };
 		4B6F2556197BA64E00AB1DD8 /* VimR Plugin Definition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6F2539197BA64E00AB1DD8 /* VimR Plugin Definition.framework */; };
 		4B6F255C197BA64E00AB1DD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F255A197BA64E00AB1DD8 /* InfoPlist.strings */; };
 		4B6F255E197BA64E00AB1DD8 /* VimR_Plugin_DefinitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F255D197BA64E00AB1DD8 /* VimR_Plugin_DefinitionTests.m */; };
+		4B6F256A197BA7E100AB1DD8 /* VRPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6F2567197BA7E100AB1DD8 /* VRPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6F256B197BA7E100AB1DD8 /* VRPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F2568197BA7E100AB1DD8 /* VRPlugin.m */; };
+		4B6F256C197BA7E100AB1DD8 /* VRPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F2568197BA7E100AB1DD8 /* VRPlugin.m */; };
+		4B6F256D197BA7E100AB1DD8 /* VRPluginPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6F2569197BA7E100AB1DD8 /* VRPluginPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +33,17 @@
 /* Begin PBXFileReference section */
 		4B6F2539197BA64E00AB1DD8 /* VimR Plugin Definition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "VimR Plugin Definition.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6F253C197BA64E00AB1DD8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		4B6F253F197BA64E00AB1DD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4B6F2540197BA64E00AB1DD8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		4B6F2541197BA64E00AB1DD8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4B6F2544197BA64E00AB1DD8 /* VimR Plugin Definition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VimR Plugin Definition-Info.plist"; sourceTree = "<group>"; };
 		4B6F2546197BA64E00AB1DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B6F2548197BA64E00AB1DD8 /* VimR Plugin Definition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VimR Plugin Definition-Prefix.pch"; sourceTree = "<group>"; };
-		4B6F2549197BA64E00AB1DD8 /* VimR_Plugin_Definition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VimR_Plugin_Definition.h; sourceTree = "<group>"; };
-		4B6F254A197BA64E00AB1DD8 /* VimR_Plugin_Definition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VimR_Plugin_Definition.m; sourceTree = "<group>"; };
 		4B6F2550197BA64E00AB1DD8 /* VimR Plugin DefinitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VimR Plugin DefinitionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6F2551197BA64E00AB1DD8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4B6F2559197BA64E00AB1DD8 /* VimR Plugin DefinitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VimR Plugin DefinitionTests-Info.plist"; sourceTree = "<group>"; };
 		4B6F255B197BA64E00AB1DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B6F255D197BA64E00AB1DD8 /* VimR_Plugin_DefinitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VimR_Plugin_DefinitionTests.m; sourceTree = "<group>"; };
+		4B6F2567197BA7E100AB1DD8 /* VRPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRPlugin.h; sourceTree = "<group>"; };
+		4B6F2568197BA7E100AB1DD8 /* VRPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRPlugin.m; sourceTree = "<group>"; };
+		4B6F2569197BA7E100AB1DD8 /* VRPluginPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRPluginPreviewView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,26 +92,16 @@
 			children = (
 				4B6F253C197BA64E00AB1DD8 /* Cocoa.framework */,
 				4B6F2551197BA64E00AB1DD8 /* XCTest.framework */,
-				4B6F253E197BA64E00AB1DD8 /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4B6F253E197BA64E00AB1DD8 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4B6F253F197BA64E00AB1DD8 /* Foundation.framework */,
-				4B6F2540197BA64E00AB1DD8 /* CoreData.framework */,
-				4B6F2541197BA64E00AB1DD8 /* AppKit.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		4B6F2542197BA64E00AB1DD8 /* VimR Plugin Definition */ = {
 			isa = PBXGroup;
 			children = (
-				4B6F2549197BA64E00AB1DD8 /* VimR_Plugin_Definition.h */,
-				4B6F254A197BA64E00AB1DD8 /* VimR_Plugin_Definition.m */,
+				4B6F2567197BA7E100AB1DD8 /* VRPlugin.h */,
+				4B6F2568197BA7E100AB1DD8 /* VRPlugin.m */,
+				4B6F2569197BA7E100AB1DD8 /* VRPluginPreviewView.h */,
 				4B6F2543197BA64E00AB1DD8 /* Supporting Files */,
 			);
 			path = "VimR Plugin Definition";
@@ -151,6 +142,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6F256A197BA7E100AB1DD8 /* VRPlugin.h in Headers */,
+				4B6F256D197BA7E100AB1DD8 /* VRPluginPreviewView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6F254B197BA64E00AB1DD8 /* VimR_Plugin_Definition.m in Sources */,
+				4B6F256B197BA7E100AB1DD8 /* VRPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6F256C197BA7E100AB1DD8 /* VRPlugin.m in Sources */,
 				4B6F255E197BA64E00AB1DD8 /* VimR_Plugin_DefinitionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +444,7 @@
 				4B6F2563197BA64E00AB1DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B6F2564197BA64E00AB1DD8 /* Build configuration list for PBXNativeTarget "VimR Plugin DefinitionTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +453,7 @@
 				4B6F2566197BA64E00AB1DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
