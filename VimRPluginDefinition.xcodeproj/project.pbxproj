@@ -365,6 +365,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VimR Plugin Definition/VimRPluginDefinition-Prefix.pch";
 				INFOPLIST_FILE = "VimR Plugin Definition/VimRPluginDefinition-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/";
 				PRODUCT_NAME = VimRPluginDefinition;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -380,6 +381,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VimR Plugin Definition/VimRPluginDefinition-Prefix.pch";
 				INFOPLIST_FILE = "VimR Plugin Definition/VimRPluginDefinition-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/";
 				PRODUCT_NAME = VimRPluginDefinition;
 				WRAPPER_EXTENSION = framework;
 			};
