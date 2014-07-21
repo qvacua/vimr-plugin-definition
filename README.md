@@ -1,4 +1,6 @@
-vimr-plugin-definition
+VimR Plugin Definition
 ======================
 
-VimR Plugin Definition Framework
+This framework contains the files needed for [VimR](https://github.com/qvacua/vimr) plugin development.
+
+TBD
